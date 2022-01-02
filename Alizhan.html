@@ -3,10 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Alizhan Kalniyazov</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+  body {
+    background-color:hsl(89, 43%, 51%);
+  }
+  hr {
+    border-style:none;
+    background-color:black;
+    height:3px;
+  }
+  h3 {
+    color: #8B0000;
+    background-color: DarkGreen;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  h4 {
+    color: #8B0000;
+    background-color: DarkGreen;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  p {
+    color: white;
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+  }
+  div {
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+  }
+  .note {
+  font-size: 120%;
+  color: black;
+}
+p.italic {
+  font-style: italic;
+}
+}
+</style>
 </head>
-<body>
-  <h1>Alizhan Kalniyazov</h1>
-  <p>I am a student of Astana IT University</p>
+<body style="background-color:hsl(89, 43%, 51%);">
+  <h1> Alizhan <span class="note"> Kalniyazov </span></h1>
+  <p>I am a student of <span class="note"> Astana IT University</span></p>
   <hr>
   <h3>Top 3 things which I love </h3>
   <ul>
@@ -15,14 +61,17 @@
     <li>mathematic</li>
   </ul>
   <h4>Top 3 things which I hate</h4>
-  <ol>
+  <ul>
   <li>music</li>
   <li>Vegetables</li>
   <li>computer games</li>
-</ol>
+</ul>
+<hr>
 <p><img src="pic.jpeg" alt="It was a good tonight"></p>
+<p class="italic">This is me during an in-depth study.</p>
 <p><a href="https://t.me/alizhan_kalniyazov">You are welcome</a></p>
-<p> I want to more travel and these countries which i want to travel</p>
+<p>Travel</p>
+<div>I want to more travel and these countries which i want to travel.</div>
 <table>
   <tbody>
     <tr>
@@ -47,6 +96,7 @@
     </tr>
   </tbody>
 </table>
+<hr>
 <p>Choose your favorite Programming language:</p>
 
 <form>
@@ -57,7 +107,8 @@
   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
   <label for="javascript">Python</label>
 </form>
-<p>This is list of my favorite books</p>
+<p>Books</p>
+<div>These is my favourite books.</div>
 <ul>
   <li>Steve Jobs by Walter Isaacson</li>
   <li>HOMO SAPIENS by Yuval Noi Kharari</li>
