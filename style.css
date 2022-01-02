@@ -1,0 +1,19 @@
+<style>
+body {
+  background-color:hsl(89, 43%, 51%);
+}
+hr {
+  border-style:none;
+  background-color:black;
+  height:3px;
+}
+h3 {
+  color: #8B0000;
+}
+h4 {
+  color: #8B0000;
+}
+p {
+  color: white;
+}
+</style>
